@@ -1,0 +1,140 @@
+/*pengaturan umum*/
+
+*{ /*bintang digunakan untuk memanggil semua*/
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #e4eddb;
+}
+
+/*header*/
+header{
+    background-color: #307672;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    
+}
+/*nav*/
+nav{
+    background-color: #2b555a;
+    color: white;
+    text-align: center;
+    padding: 25px;
+
+}
+
+nav a{
+    color: rgb(238, 240, 240);
+    margin: 15px;
+    text-decoration: none; /*untuk menghilangkan garis link*/
+}
+
+nav a:hover{ /* hover ini untuk animasi agar ketika kursor di arahkan terdapat animasi link*/
+    text-decoration: underline;
+    
+}
+
+main{
+    max-width: 1100px;
+    margin: 25px auto;
+    padding: 0% 20px;
+
+}
+
+.banner{/*cara memanggil salah satu celas dengan menggunakan titik*/
+    background-color: aliceblue;
+    color: black;
+    text-align: center;
+    padding: 45px 20px;
+    border-radius: 10px;
+    margin-top: 35px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.banner h2{
+    margin: 0;
+    color: #144d53;
+}
+
+.tombol{/*tombol di banner*/
+    display: inline-block;
+    background-color: #307672;
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+
+.tombol:hover{
+    background-color: #144d53;
+}
+.daftar-produk {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+
+.gambar {
+    font-size: 55px;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+.produk{
+    background-color: aliceblue;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px; /*agar melengkung*/
+    box-shadow: 0 2px 8px;
+}
+
+.harga{
+    color: #307672;
+    font-weight: bold;
+}
+
+.produk button{
+    background-color: #307672;
+    color: aliceblue;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;/*agar melengkung*/
+}
+
+.produk button:hover {
+    background-color: #144d53;
+}
+
+/*tentang dan kontak*/
+.tentang, .kontak{
+    background-color: aliceblue;
+    padding: 25px;
+    margin-top: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px;
+}
+/*cara agar memanggil bareng* dengan setingan yg sama*/
+
+/* Footer */
+footer {
+    background-color: #307672;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin: 0 auto 25px;
+    width: 90%;
+    max-width: 900px;
+    border-radius: 10px;
+}
+
+footer p {
+    margin: 0;
+}
